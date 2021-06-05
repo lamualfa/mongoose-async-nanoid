@@ -1,3 +1,7 @@
+[![NPM Version](https://badgen.net/npm/v/mongoose-async-nanoid?color=red&icon=npm&label=version)](https://npmjs.com/package/mongoose-async-nanoid)
+[![Github License](https://badgen.net/github/license/lamualfa/mongoose-async-nanoid?color=purple&label=license)](https://github.com/lamualfa/mongoose-async-nanoid/blob/master/LICENSE)
+
+
 # mongoose-async-nanoid
 
 Use [nanoid](https://github.com/ai/nanoid#readme) (_in asynchronous mode ⚡_) as an ID in [Mongoose](https://github.com/Automattic/mongoose) with [TypeScript](https://www.typescriptlang.org/) support by default.

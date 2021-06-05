@@ -1,9 +1,16 @@
 {
   "name": "mongoose-async-nanoid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "files": [
     "dist"
+  ],
+  "homepage": "https://github.com/lamualfa/mongoose-async-nanoid",
+  "keywords": [
+    "mongoose",
+    "nanoid",
+    "id",
+    "plugin"
   ],
   "scripts": {
     "format:eslint": "eslint --fix",
