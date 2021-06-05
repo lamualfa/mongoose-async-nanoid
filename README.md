@@ -22,9 +22,9 @@ pnpm add mongoose-async-nanoid
 yarn add mongoose-async-nanoid
 ```
 
-### Note
+### Note 🗒️
 
-> `mongoose-async-nanoid` use `nanoid` as a [Peer Dependencies](https://nodejs.org/es/blog/npm/peer-dependencies/). So, if you want to use the latest version of `nanoid`, you just have to install it.
+`mongoose-async-nanoid` use `nanoid` as a [Peer Dependencies](https://nodejs.org/es/blog/npm/peer-dependencies/). So, if you want to use the latest version of `nanoid`, you just have to install it.
 
 **Example**
 
@@ -106,6 +106,8 @@ type Options = {
   attempsErrorMessage?: string
 }
 ```
+
+**Details**
 
 - `fieldName` - The target field where the ID will be created. Default `_id`.
 - `length` - Length of ID to be created. Default `21`.
