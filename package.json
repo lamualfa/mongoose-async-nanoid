@@ -1,0 +1,38 @@
+{
+  "name": "mongoose-async-nanoid",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "format:eslint": "eslint --fix",
+    "format:prettier": "prettier --write src",
+    "format": "pnpm run format:eslint && pnpm run format:prettier",
+    "precommit": "lint-staged",
+    "prepush": "pnpm run test",
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable",
+    "prepublishOnly": "pinst --disable",
+    "build": "tsc"
+  },
+  "lint-staged": {
+    "src/**/*.ts": "pnpm run format"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "mongoose": "^5.12.13",
+    "pinst": "^2.1.6",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "nanoid": "^3.1.23"
+  }
+}
